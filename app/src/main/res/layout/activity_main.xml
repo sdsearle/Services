@@ -28,4 +28,32 @@
         android:text="Start Intent service"
         android:onClick="startService"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBoundToService"
+        android:text="Bound to service"
+        android:onClick="startService"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUnBoundToService"
+        android:text="UnBound to service"
+        android:onClick="startService"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBoundInitData"
+        android:text="Create Data for Bound"
+        android:onClick="startService"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBoundGetData"
+        android:text="Get Data From Bound"
+        android:onClick="startService"/>
+
 </LinearLayout>
